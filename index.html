@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Chips</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Request Chips</h1>
+        <form id="chipForm">
+            <label for="playerId">PPPoker ID:</label>
+            <input type="text" id="playerId" name="playerId" required>
+
+            <label for="chipAmount">Chip Amount:</label>
+            <input type="number" id="chipAmount" name="chipAmount" required>
+
+            <label for="slip">Upload BML Slip:</label>
+            <input type="file" id="slip" name="slip" accept="image/*" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
